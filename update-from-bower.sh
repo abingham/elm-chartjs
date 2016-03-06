@@ -3,7 +3,7 @@ then
   rm src/Native/Chart.js
 fi
 
-bower install chartjs
+bower install --allow-root chartjs
 
 # Linux
 if [ -e bower_components/Chart.js/Chart.js ]
